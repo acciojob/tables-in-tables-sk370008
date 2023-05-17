@@ -7,8 +7,86 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+    <table style="width: 100%; height: 100%" border="1">
       <!-- Your code here -->
+
+      <tr>
+        <!-- table 2 -->
+        <td>
+          <table border="1">
+            <thead>
+              <tr>
+                <th colspan="2">Nested Table 2</th>
+              </tr>
+              <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>abc</td>
+                <td>def</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+
+        <!-- table 1 -->
+        <td>
+          <table border="1">
+            <thead>
+              <tr>
+                <th>Nested Table 1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <ul>
+                    <li>List item</li>
+                    <li>List item</li>
+                    <li>List item</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <!-- table 3 -->
+        <td>
+          <table border="1">
+            <thead>
+              <th colspan="2">Nested Table 3</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Nested Table</td>
+                <td>Demo Continued</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <!-- table 4 -->
+        <td>
+          <table border="1">
+            <thead>
+              <th colspan="2">Nested Table 4</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2" style="color: white; background-color: black">
+                  HTML
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
     </table>
   </body>
 </html>
